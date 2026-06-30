@@ -12,12 +12,14 @@ import { Duration, inMilliseconds } from '@metamask/utils';
 import {
   InfiniteData,
   InfiniteQueryObserver,
+  MutationObserver as TanStackQueryMutationObserver,
   QueryClient,
   QueryClientConfig,
   QueryObserver,
 } from '@tanstack/query-core';
 
 import {
+  AddFollowerResponse,
   ExampleDataService,
   ExampleMessenger,
   GetActivityResponse,
@@ -26,6 +28,7 @@ import {
 } from '../../base-data-service/tests/ExampleDataService.js';
 import {
   mockAssets,
+  mockAddFollowerRequest,
   mockTransactionsPage1,
   mockTransactionsPage2,
 } from '../../base-data-service/tests/mocks.js';
@@ -164,8 +167,14 @@ const getActivityQueryKey = [
   '0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520',
 ];
 
+const addFollowerMutationKey = ['ExampleDataService:addFollower', '1'];
+
 describe('createUIQueryClient', () => {
   beforeEach(() => {
+    // This is necessary to avoid a "Jest did not exit within 1 second" error
+    // even for "simple" tests like fetching queries or executing mutations
+    jest.useFakeTimers({ doNotFake: ['nextTick', 'setImmediate'] });
+
     mockAssets();
     mockTransactionsPage1();
     mockTransactionsPage2();
@@ -206,7 +215,7 @@ describe('createUIQueryClient', () => {
     service.destroy();
   });
 
-  it('fetches using observers', async () => {
+  it('fetches queries using observers', async () => {
     const { clientA, clientB, service } = createClients();
 
     const observerA = new QueryObserver(clientA, {
@@ -245,7 +254,7 @@ describe('createUIQueryClient', () => {
     service.destroy();
   });
 
-  it('fetches using observers in the same client', async () => {
+  it('fetches queries using observers in the same client', async () => {
     const { clientA, service } = createClients();
 
     const observerA = new QueryObserver(clientA, {
@@ -284,6 +293,64 @@ describe('createUIQueryClient', () => {
     service.destroy();
   });
 
+  it('executes mutations using observers', async () => {
+    const { clientA, clientB, service } = createClients();
+
+    mockAddFollowerRequest();
+    mockAddFollowerRequest();
+
+    const observerA = new TanStackQueryMutationObserver<AddFollowerResponse>(
+      clientA,
+      {
+        mutationKey: addFollowerMutationKey,
+      },
+    );
+    const observerB = new TanStackQueryMutationObserver<AddFollowerResponse>(
+      clientB,
+      {
+        mutationKey: addFollowerMutationKey,
+      },
+    );
+
+    const resultA = await observerA.mutate();
+    const resultB = await observerB.mutate();
+
+    expect(resultA.followed).toHaveLength(1);
+    expect(resultA).toStrictEqual(resultB);
+
+    observerA.reset();
+    observerB.reset();
+    service.destroy();
+  });
+
+  it('executes mutations using observers in the same client', async () => {
+    const { clientA, service } = createClients();
+
+    mockAddFollowerRequest();
+    mockAddFollowerRequest();
+
+    const observerA = new TanStackQueryMutationObserver<AddFollowerResponse>(
+      clientA,
+      {
+        mutationKey: addFollowerMutationKey,
+      },
+    );
+    const observerB = new TanStackQueryMutationObserver<AddFollowerResponse>(
+      clientA,
+      {
+        mutationKey: addFollowerMutationKey,
+      },
+    );
+
+    const resultA = await observerA.mutate();
+    const resultB = await observerB.mutate();
+
+    expect(resultA.followed).toHaveLength(1);
+    expect(resultA).toStrictEqual(resultB);
+
+    service.destroy();
+  });
+
   it('synchronizes caches after invalidation', async () => {
     const { clientA, clientB, service } = createClients();
 
@@ -297,7 +364,7 @@ describe('createUIQueryClient', () => {
 
     const promiseA = new Promise((resolve) => {
       observerA.subscribe((event) => {
-        if (event.status === 'success') {
+        if (event.status === 'success' && !event.isFetching) {
           resolve(event.data);
         }
       });
@@ -305,13 +372,16 @@ describe('createUIQueryClient', () => {
 
     const promiseB = new Promise((resolve) => {
       observerB.subscribe((event) => {
-        if (event.status === 'success') {
+        if (event.status === 'success' && !event.isFetching) {
           resolve(event.data);
         }
       });
     });
 
     await Promise.all([promiseA, promiseB]);
+
+    // Advance the full gcTime of ExampleDataService
+    jest.advanceTimersByTime(inMilliseconds(1, Duration.Day));
 
     // Replace the mock response and invalidate
     mockAssets({
@@ -371,9 +441,7 @@ describe('createUIQueryClient', () => {
     service.destroy();
   });
 
-  it('does not remove from the cache if observers still are subscribed', async () => {
-    jest.useFakeTimers();
-
+  it('does not remove from the cache if query observers still are subscribed', async () => {
     const { clientA, clientB, service } = createClients();
 
     const observerA = new QueryObserver(clientA, {
@@ -417,9 +485,36 @@ describe('createUIQueryClient', () => {
     service.destroy();
   });
 
-  it('cleans up removed cache entries once all observers are removed', async () => {
-    jest.useFakeTimers();
+  it('does not unsubscribe while mutation observers still are subscribed', async () => {
+    const { clientA, messenger, service } = createClients();
+    const subscribeSpy = jest.spyOn(messenger, 'subscribe');
+    const unsubscribeSpy = jest.spyOn(messenger, 'unsubscribe');
 
+    const observerA = new TanStackQueryMutationObserver(clientA, {
+      mutationKey: addFollowerMutationKey,
+      mutationFn: async (): Promise<void> => undefined,
+    });
+    const observerB = new TanStackQueryMutationObserver(clientA, {
+      mutationKey: addFollowerMutationKey,
+      mutationFn: async (): Promise<void> => undefined,
+    });
+
+    await observerA.mutate();
+    await observerB.mutate();
+
+    expect(subscribeSpy).toHaveBeenCalledTimes(1);
+
+    observerA.reset();
+
+    expect(unsubscribeSpy).not.toHaveBeenCalled();
+
+    observerB.reset();
+
+    expect(unsubscribeSpy).toHaveBeenCalledTimes(1);
+    service.destroy();
+  });
+
+  it('cleans up removed cache entries once all observers are removed', async () => {
     const defaultOptions = {
       queries: { gcTime: inMilliseconds(5, Duration.Minute) },
     };
@@ -523,6 +618,9 @@ describe('createUIQueryClient', () => {
     const resultB = await promiseB;
     expect(resultA).toStrictEqual(resultB);
 
+    // Advance the full gcTime of ExampleDataService
+    jest.advanceTimersByTime(inMilliseconds(1, Duration.Day));
+
     const nextPageResult = await observerA.fetchNextPage();
     expect(nextPageResult.data?.pages).toHaveLength(2);
 
@@ -535,7 +633,7 @@ describe('createUIQueryClient', () => {
     service.destroy();
   });
 
-  it('errors if observer attempts to use default query function without a data service', async () => {
+  it('errors if query observer attempts to use default query function without a data service', async () => {
     const { clientA } = createClients();
 
     const observer = new QueryObserver(clientA, {
@@ -552,7 +650,18 @@ describe('createUIQueryClient', () => {
     });
 
     await expect(promise).rejects.toThrow(
-      "Queries must call actions on the messenger provided to createUIQueryClient, e.g. `queryKey: ['ExampleDataService:getAssets', ...]`.",
+      "You must pass a `queryKey` that calls an action on the messenger provided to `createUIQueryClient`, e.g. `queryKey: ['ExampleDataService:getAssets', ...]`.",
+    );
+  });
+
+  it('errors if mutation observer attempts to use default mutation function without a data service', async () => {
+    const { clientA } = createClients();
+    const observer = new TanStackQueryMutationObserver(clientA, {
+      mutationKey: ['mutation'],
+    });
+
+    await expect(observer.mutate()).rejects.toThrow(
+      "You must pass a `mutationKey` that calls an action on the messenger provided to `createUIQueryClient`, e.g. `mutationKey: ['ExampleDataService:createOrder', ...]`.",
     );
   });
 

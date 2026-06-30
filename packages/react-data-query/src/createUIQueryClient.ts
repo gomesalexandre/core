@@ -2,14 +2,16 @@ import type {
   DataServiceGranularCacheUpdatedEvent,
   DataServiceGranularCacheUpdatedPayload,
 } from '@metamask/base-data-service';
-import { assert } from '@metamask/utils';
+import { Json, assert } from '@metamask/utils';
 import {
+  hashKey,
   hydrate,
   QueryClient,
   InvalidateQueryFilters,
   InvalidateOptions,
   QueryKey,
   QueryClientConfig,
+  MutationOptions,
 } from '@tanstack/query-core';
 
 /**
@@ -83,6 +85,12 @@ export function createUIQueryClient<DataServiceNames extends readonly string[]>(
     DataServiceGranularCacheUpdatedHandler
   >();
 
+  // Tracks how many mutation observers are currently relying on each mutation
+  // key's cache subscription. Unlike queries, a `Mutation` does not expose its
+  // observer count publicly, so we count observers ourselves and only tear down
+  // the messenger subscription once the last observer for a key is removed.
+  const mutationObserverCounts = new Map<string, number>();
+
   /**
    * Check whether a name is one of the provided data service names.
    *
@@ -141,7 +149,7 @@ export function createUIQueryClient<DataServiceNames extends readonly string[]>(
 
           assert(
             typeof action === 'string' && isRecognizedDataServiceAction(action),
-            "Queries must call actions on the messenger provided to createUIQueryClient, e.g. `queryKey: ['ExampleDataService:getAssets', ...]`.",
+            "You must pass a `queryKey` that calls an action on the messenger provided to `createUIQueryClient`, e.g. `queryKey: ['ExampleDataService:getAssets', ...]`.",
           );
 
           const params = options.queryKey.slice(1);
@@ -156,9 +164,8 @@ export function createUIQueryClient<DataServiceNames extends readonly string[]>(
     },
   });
 
-  const cache = client.getQueryCache();
-
-  cache.subscribe((event) => {
+  const queryCache = client.getQueryCache();
+  queryCache.subscribe((event) => {
     const { query } = event;
 
     const hash = query.queryHash;
@@ -208,6 +215,72 @@ export function createUIQueryClient<DataServiceNames extends readonly string[]>(
     }
   });
 
+  const mutationCache = client.getMutationCache();
+  mutationCache.subscribe((event) => {
+    const { mutation } = event;
+
+    if (!mutation?.options.mutationKey) {
+      return;
+    }
+
+    const hash = hashKey(mutation.options.mutationKey);
+    const hasSubscription = subscriptions.has(hash);
+
+    const service = parseQueryKey(mutation.options.mutationKey);
+
+    if (!service) {
+      return;
+    }
+
+    if (event.type === 'observerAdded') {
+      mutationObserverCounts.set(
+        hash,
+        (mutationObserverCounts.get(hash) ?? 0) + 1,
+      );
+
+      if (!hasSubscription) {
+        const cacheListener = (
+          payload: DataServiceGranularCacheUpdatedPayload,
+        ): void => {
+          if (payload.type === 'removed') {
+            return;
+          }
+
+          hydrate(client, payload.state);
+        };
+
+        subscriptions.set(hash, cacheListener);
+        messenger.subscribe(`${service}:cacheUpdated:${hash}`, cacheListener);
+      }
+    } else if (event.type === 'observerRemoved' && hasSubscription) {
+      // We can assume that if an observed is removed, it must have first been
+      // added; and that when it was added, the observer count was initialized.
+      // (There's no real way to test the alternative, anyway.)
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+      const remainingObservers = mutationObserverCounts.get(hash)! - 1;
+
+      if (remainingObservers > 0) {
+        mutationObserverCounts.set(hash, remainingObservers);
+        return;
+      }
+
+      mutationObserverCounts.delete(hash);
+
+      const subscriptionListener = subscriptions.get(hash);
+
+      // A subscription always has a listener, since both are set together when
+      // the first observer is added.
+      // istanbul ignore next
+      if (subscriptionListener) {
+        messenger.unsubscribe(
+          `${service}:cacheUpdated:${hash}`,
+          subscriptionListener,
+        );
+      }
+      subscriptions.delete(hash);
+    }
+  });
+
   // Override invalidateQueries to ensure the data service is invalidated as well.
   const originalInvalidate = client.invalidateQueries.bind(client);
 
@@ -232,6 +305,39 @@ export function createUIQueryClient<DataServiceNames extends readonly string[]>(
     );
 
     return originalInvalidate(filters, options);
+  };
+
+  // Override defaultMutationOptions to check for mutationKey if mutationFn is
+  // not provided.
+  const originalDefaultMutationOptions =
+    client.defaultMutationOptions.bind(client);
+
+  client.defaultMutationOptions = <
+    // We are overriding a type in @tanstack/query-core.
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    Options extends MutationOptions<any, any, any, any>,
+  >(
+    options?: Options,
+  ): Options => {
+    const defaultedOptions = originalDefaultMutationOptions(options);
+    defaultedOptions.mutationFn ??= async (): Promise<unknown> => {
+      const { mutationKey } = defaultedOptions;
+
+      assert(
+        mutationKey !== undefined,
+        "You must pass a `mutationKey` that calls an action on the messenger provided to `createUIQueryClient`, e.g. `mutationKey: ['ExampleDataService:createOrder', ...]`.",
+      );
+
+      const [action, ...params] = mutationKey;
+
+      assert(
+        typeof action === 'string' && isRecognizedDataServiceAction(action),
+        "You must pass a `mutationKey` that calls an action on the messenger provided to `createUIQueryClient`, e.g. `mutationKey: ['ExampleDataService:createOrder', ...]`.",
+      );
+
+      return await messenger.call(action, ...(params as Json[]));
+    };
+    return defaultedOptions;
   };
 
   return client;
