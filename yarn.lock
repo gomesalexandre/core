@@ -5756,6 +5756,7 @@ __metadata:
     "@metamask/superstruct": "npm:^3.4.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     fast-deep-equal: "npm:^3.1.3"
     jest: "npm:^30.4.2"
@@ -5765,7 +5766,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     webextension-polyfill: "npm:^0.12.0"
   peerDependencies:
     "@metamask/providers": ^22.0.0
@@ -5794,6 +5795,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
     "@types/readable-stream": "npm:^2.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     ethereum-cryptography: "npm:^2.1.2"
     immer: "npm:^9.0.6"
@@ -5804,7 +5806,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
     webextension-polyfill: "npm:^0.12.0"
   peerDependencies:
@@ -5834,6 +5836,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -5841,7 +5844,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -5855,6 +5858,7 @@ __metadata:
     "@metamask/superstruct": "npm:^3.4.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -5862,7 +5866,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -5877,6 +5881,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
     "@types/uuid": "npm:^8.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     lodash-es: "npm:^4.17.21"
@@ -5885,7 +5890,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -5900,6 +5905,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -5908,7 +5914,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -5920,6 +5926,7 @@ __metadata:
     "@metamask/base-controller": "npm:^9.1.0"
     "@metamask/messenger": "npm:^2.0.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -5927,7 +5934,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -5946,6 +5953,7 @@ __metadata:
     "@metamask/base-controller": "npm:^9.1.0"
     "@metamask/messenger": "npm:^2.0.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -5953,7 +5961,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -5967,6 +5975,7 @@ __metadata:
     "@metamask/rpc-errors": "npm:^7.0.2"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nanoid: "npm:^3.3.8"
@@ -5975,7 +5984,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6014,6 +6023,7 @@ __metadata:
     "@types/jest": "npm:^30.0.0"
     "@types/lodash": "npm:^4.14.191"
     "@types/lodash-es": "npm:^4.17.12"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     bignumber.js: "npm:^9.1.2"
     deepmerge: "npm:^4.2.2"
@@ -6026,7 +6036,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6082,6 +6092,7 @@ __metadata:
     "@types/lodash-es": "npm:^4.17.12"
     "@types/node": "npm:^22.13.14"
     "@types/uuid": "npm:^8.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     bitcoin-address-validation: "npm:^2.2.3"
     bn.js: "npm:^5.2.1"
@@ -6099,7 +6110,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
     webextension-polyfill: "npm:^0.12.0"
   peerDependencies:
@@ -6153,6 +6164,7 @@ __metadata:
     "@metamask/superstruct": "npm:^3.4.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -6161,7 +6173,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6196,6 +6208,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     immer: "npm:^9.0.6"
     jest: "npm:^30.4.2"
@@ -6204,7 +6217,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6220,6 +6233,7 @@ __metadata:
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
     "@types/lodash-es": "npm:^4.17.12"
+    "@typescript/native": "npm:typescript@^7.0.2"
     cockatiel: "npm:^3.1.2"
     deepmerge: "npm:^4.2.2"
     fast-deep-equal: "npm:^3.1.3"
@@ -6231,7 +6245,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6242,6 +6256,7 @@ __metadata:
     "@metamask/auto-changelog": "npm:^6.1.0"
     "@metamask/local-node-utils": "npm:^1.0.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -6249,7 +6264,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   bin:
     bitcoin-regtest-up: ./dist/bin/bitcoin-regtest-up.js
   languageName: unknown
@@ -6285,6 +6300,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bignumber.js: "npm:^9.1.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -6297,7 +6313,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -6322,6 +6338,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bignumber.js: "npm:^9.1.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -6333,7 +6350,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -6355,6 +6372,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/eslint": "npm:^8.44.7"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -6362,7 +6380,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6378,6 +6396,7 @@ __metadata:
     "@metamask/rpc-errors": "npm:^7.0.2"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     lodash-es: "npm:^4.17.21"
@@ -6386,7 +6405,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6402,6 +6421,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -6410,7 +6430,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6429,6 +6449,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -6436,7 +6457,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6448,6 +6469,7 @@ __metadata:
     "@metamask/base-controller": "npm:^9.1.0"
     "@metamask/messenger": "npm:^2.0.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     jest-environment-jsdom: "npm:^30.4.1"
@@ -6456,7 +6478,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6474,6 +6496,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     eth-chainlist: "npm:^0.0.795"
     jest: "npm:^30.4.2"
@@ -6482,7 +6505,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6497,6 +6520,7 @@ __metadata:
     "@metamask/superstruct": "npm:^3.4.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -6506,7 +6530,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6519,6 +6543,7 @@ __metadata:
     "@metamask/json-rpc-engine": "npm:^10.5.0"
     "@metamask/messenger": "npm:^2.0.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     immer: "npm:^9.0.6"
     jest: "npm:^30.4.2"
@@ -6527,7 +6552,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6546,6 +6571,7 @@ __metadata:
     "@metamask/superstruct": "npm:^3.4.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -6555,7 +6581,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6567,6 +6593,7 @@ __metadata:
     "@metamask/base-controller": "npm:^9.1.0"
     "@metamask/messenger": "npm:^2.0.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     reselect: "npm:^5.1.1"
@@ -6575,7 +6602,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6621,6 +6648,7 @@ __metadata:
     "@types/bn.js": "npm:^5.1.5"
     "@types/jest": "npm:^30.0.0"
     "@types/lodash-es": "npm:^4.17.12"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bignumber.js: "npm:^9.1.2"
     bn.js: "npm:^5.2.1"
     cockatiel: "npm:^3.1.2"
@@ -6636,7 +6664,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   peerDependencies:
     "@babel/runtime": ^7.0.0
   languageName: unknown
@@ -6656,6 +6684,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     cockatiel: "npm:^3.1.2"
     deepmerge: "npm:^4.2.2"
@@ -6666,7 +6695,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -6697,6 +6726,7 @@ __metadata:
     "@types/semver": "npm:^7"
     "@typescript-eslint/eslint-plugin": "npm:^8.48.0"
     "@typescript-eslint/parser": "npm:^8.48.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     "@yarnpkg/cli": "npm:^4.17.1"
     "@yarnpkg/core": "npm:^4.9.0"
     "@yarnpkg/fslib": "npm:^3.1.5"
@@ -6727,7 +6757,7 @@ __metadata:
     simple-git-hooks: "npm:^2.8.0"
     ts-jest: "npm:^29.4.11"
     tsx: "npm:^4.20.5"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     typescript-eslint: "npm:^8.48.0"
     uuid: "npm:^8.3.2"
     yargs: "npm:^17.7.2"
@@ -6775,6 +6805,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -6782,7 +6813,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6820,6 +6851,7 @@ __metadata:
     "@metamask/stake-sdk": "npm:^3.2.1"
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     reselect: "npm:^5.1.1"
@@ -6828,7 +6860,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6845,6 +6877,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     klona: "npm:^2.0.6"
@@ -6854,7 +6887,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -6869,6 +6902,7 @@ __metadata:
     "@metamask/superstruct": "npm:^3.4.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -6876,7 +6910,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6892,6 +6926,7 @@ __metadata:
     "@metamask/rpc-errors": "npm:^7.0.2"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     lodash-es: "npm:^4.17.21"
@@ -6900,7 +6935,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -6978,6 +7013,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
     "@types/json-rpc-random-id": "npm:^1.0.1"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     json-rpc-random-id: "npm:^1.0.1"
@@ -6986,7 +7022,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7049,6 +7085,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/deep-freeze-strict": "npm:^1.1.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deep-freeze-strict: "npm:^1.1.1"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -7058,7 +7095,7 @@ __metadata:
     ts-jest: "npm:^29.4.11"
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7087,6 +7124,7 @@ __metadata:
     "@metamask/rpc-errors": "npm:^7.0.2"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     ethers: "npm:^6.12.0"
     jest: "npm:^30.4.2"
@@ -7095,7 +7133,7 @@ __metadata:
     ts-jest: "npm:^29.4.11"
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7347,6 +7385,7 @@ __metadata:
     "@types/unzipper": "npm:^0.10.10"
     "@types/yargs": "npm:^17.0.32"
     "@types/yargs-parser": "npm:^21.0.3"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     minipass: "npm:^7.1.2"
@@ -7357,7 +7396,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     unzipper: "npm:^0.12.3"
     yaml: "npm:^2.3.4"
     yargs: "npm:^17.7.2"
@@ -7385,6 +7424,7 @@ __metadata:
     "@types/jest": "npm:^30.0.0"
     "@types/jest-when": "npm:^2.7.3"
     "@types/uuid": "npm:^8.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bn.js: "npm:^5.2.1"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -7395,7 +7435,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   peerDependencies:
     "@babel/runtime": ^7.0.0
@@ -7422,6 +7462,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -7429,7 +7470,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7442,6 +7483,7 @@ __metadata:
     "@metamask/controller-utils": "npm:^12.3.0"
     "@metamask/messenger": "npm:^2.0.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -7449,7 +7491,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7460,6 +7502,7 @@ __metadata:
     "@metamask/auto-changelog": "npm:^6.1.0"
     "@metamask/local-node-utils": "npm:^1.0.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -7467,7 +7510,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   bin:
     java-tron-up: ./dist/bin/java-tron-up.js
   languageName: unknown
@@ -7486,6 +7529,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/deep-freeze-strict": "npm:^1.1.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deep-freeze-strict: "npm:^1.1.1"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -7494,7 +7538,7 @@ __metadata:
     ts-jest: "npm:^29.4.11"
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7508,6 +7552,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
     "@types/readable-stream": "npm:^2.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     extension-port-stream: "npm:^3.0.0"
     jest: "npm:^30.4.2"
@@ -7517,7 +7562,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     webextension-polyfill-ts: "npm:^0.26.0"
   languageName: unknown
   linkType: soft
@@ -7570,6 +7615,7 @@ __metadata:
     "@metamask/scure-bip39": "npm:^2.1.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     deepmerge: "npm:^4.2.2"
     ethereumjs-wallet: "npm:^1.0.1"
@@ -7581,7 +7627,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     ulid: "npm:^2.3.0"
     uuid: "npm:^8.3.2"
   languageName: unknown
@@ -7704,7 +7750,7 @@ __metadata:
     tweetnacl: "npm:^1.0.3"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7714,6 +7760,7 @@ __metadata:
   dependencies:
     "@metamask/auto-changelog": "npm:^6.1.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -7722,7 +7769,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     yaml: "npm:^2.3.4"
   languageName: unknown
   linkType: soft
@@ -7736,6 +7783,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -7743,7 +7791,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -7760,6 +7808,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
     "@types/uuid": "npm:^8.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     jsonschema: "npm:^1.4.1"
@@ -7768,7 +7817,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -7782,6 +7831,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
     "@types/yargs": "npm:^17.0.32"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     execa: "npm:^5.0.0"
     jest: "npm:^30.4.2"
@@ -7790,7 +7840,7 @@ __metadata:
     rimraf: "npm:^5.0.5"
     ts-jest: "npm:^29.4.11"
     tsx: "npm:^4.20.5"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     yargs: "npm:^17.7.2"
   peerDependencies:
     oxfmt: ^0.44.0
@@ -7827,6 +7877,7 @@ __metadata:
     "@metamask/auto-changelog": "npm:^6.1.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     immer: "npm:^9.0.6"
     jest: "npm:^30.4.2"
@@ -7836,7 +7887,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   peerDependencies:
     typescript: ">=5.0.0"
   languageName: unknown
@@ -7861,6 +7912,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -7869,7 +7921,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7890,6 +7942,7 @@ __metadata:
     "@metamask/superstruct": "npm:^3.4.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -7898,7 +7951,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7916,6 +7969,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -7924,7 +7978,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7944,6 +7998,7 @@ __metadata:
     "@metamask/network-controller": "npm:^36.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -7951,7 +8006,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -7973,7 +8028,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8005,6 +8060,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
     "@types/uuid": "npm:^8.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -8014,7 +8070,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
     webextension-polyfill: "npm:^0.12.0"
   peerDependencies:
@@ -8044,6 +8100,7 @@ __metadata:
     "@open-rpc/meta-schema": "npm:^1.14.6"
     "@open-rpc/schema-utils-js": "npm:^2.0.5"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     jsonschema: "npm:^1.4.1"
@@ -8052,7 +8109,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8075,6 +8132,7 @@ __metadata:
     "@types/jest": "npm:^30.0.0"
     "@types/lodash-es": "npm:^4.17.12"
     "@types/uuid": "npm:^8.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     immer: "npm:^9.0.6"
     jest: "npm:^30.4.2"
@@ -8085,7 +8143,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8108,6 +8166,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
     "@types/uuid": "npm:^8.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     immer: "npm:^9.0.6"
     jest: "npm:^30.4.2"
@@ -8116,7 +8175,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -8131,6 +8190,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -8139,7 +8199,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8157,6 +8217,7 @@ __metadata:
     "@metamask/network-enablement-controller": "npm:^6.0.5"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     reselect: "npm:^5.1.1"
@@ -8165,7 +8226,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8196,6 +8257,7 @@ __metadata:
     "@types/jest-when": "npm:^2.7.3"
     "@types/lodash-es": "npm:^4.17.12"
     "@types/node-fetch": "npm:^2.6.12"
+    "@typescript/native": "npm:typescript@^7.0.2"
     cockatiel: "npm:^3.1.2"
     deep-freeze-strict: "npm:^1.1.1"
     deepmerge: "npm:^4.2.2"
@@ -8214,7 +8276,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uri-js: "npm:^4.4.1"
     uuid: "npm:^8.3.2"
   languageName: unknown
@@ -8236,6 +8298,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     reselect: "npm:^5.1.1"
@@ -8244,7 +8307,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8279,6 +8342,7 @@ __metadata:
     "@types/lodash-es": "npm:^4.17.12"
     "@types/readable-stream": "npm:^2.3.0"
     "@types/semver": "npm:^7"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bignumber.js: "npm:^9.1.2"
     contentful: "npm:^10.15.0"
     deepmerge: "npm:^4.2.2"
@@ -8294,7 +8358,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -8333,6 +8397,7 @@ __metadata:
     "@noble/curves": "npm:^1.9.2"
     "@noble/hashes": "npm:^1.8.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -8341,7 +8406,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8378,6 +8443,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/deep-freeze-strict": "npm:^1.1.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deep-freeze-strict: "npm:^1.1.1"
     deepmerge: "npm:^4.2.2"
     immer: "npm:^9.0.6"
@@ -8388,7 +8454,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8403,6 +8469,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/deep-freeze-strict": "npm:^1.1.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deep-freeze-strict: "npm:^1.1.1"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -8412,7 +8479,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8440,6 +8507,7 @@ __metadata:
     "@nktkas/hyperliquid": "npm:^0.33.1"
     "@types/jest": "npm:^30.0.0"
     "@types/uuid": "npm:^8.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bignumber.js: "npm:^9.1.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -8449,7 +8517,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
     viem: "npm:^2.55.8"
   dependenciesMeta:
@@ -8471,6 +8539,7 @@ __metadata:
     "@noble/hashes": "npm:^1.8.0"
     "@types/jest": "npm:^30.0.0"
     "@types/punycode": "npm:^2.1.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     ethereum-cryptography: "npm:^2.1.2"
     fastest-levenshtein: "npm:^1.0.16"
@@ -8482,7 +8551,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8504,6 +8573,7 @@ __metadata:
     "@types/npm-which": "npm:^3"
     "@types/react": "npm:^19.0.0"
     "@types/yargs": "npm:^17.0.32"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     execa: "npm:^5.0.0"
     glob: "npm:^13.0.6"
@@ -8516,7 +8586,7 @@ __metadata:
     ts-jest: "npm:^29.4.11"
     ts-morph: "npm:^28.0.0"
     tsx: "npm:^4.20.5"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     yargs: "npm:^17.7.2"
   bin:
     platform-api-docs: ./dist/cli.js
@@ -8533,6 +8603,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
     "@types/uuid": "npm:^8.3.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     fast-json-stable-stringify: "npm:^2.1.0"
     jest: "npm:^30.4.2"
@@ -8541,7 +8612,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -8565,6 +8636,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -8572,7 +8644,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8596,6 +8668,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -8605,7 +8678,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -8632,6 +8705,7 @@ __metadata:
     "@noble/curves": "npm:^1.9.2"
     "@noble/hashes": "npm:^1.8.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     ethers: "npm:^6.12.0"
     immer: "npm:^9.0.6"
@@ -8645,7 +8719,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     webextension-polyfill: "npm:^0.12.0"
   peerDependencies:
     "@metamask/providers": ^22.0.0
@@ -8685,6 +8759,7 @@ __metadata:
     "@metamask/profile-sync-controller": "npm:^29.0.0"
     "@metamask/remote-feature-flag-controller": "npm:^6.1.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -8693,7 +8768,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8707,6 +8782,7 @@ __metadata:
     "@metamask/rpc-errors": "npm:^7.0.2"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -8714,7 +8790,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8729,6 +8805,7 @@ __metadata:
     "@tanstack/query-core": "npm:^5.62.16"
     "@tanstack/react-query": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -8737,7 +8814,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -8761,6 +8838,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -8769,7 +8847,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -8805,6 +8883,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -8813,7 +8892,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8847,6 +8926,7 @@ __metadata:
     "@types/elliptic": "npm:^6"
     "@types/jest": "npm:^30.0.0"
     "@types/json-stable-stringify-without-jsonify": "npm:^1.0.2"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -8856,7 +8936,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8873,6 +8953,7 @@ __metadata:
     "@metamask/swappable-obj-proxy": "npm:^2.3.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     immer: "npm:^9.0.6"
     jest: "npm:^30.4.2"
@@ -8884,7 +8965,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8900,6 +8981,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -8908,7 +8990,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -8930,6 +9012,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     cockatiel: "npm:^3.1.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -8939,7 +9022,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -8961,6 +9044,7 @@ __metadata:
     "@metamask/network-controller": "npm:^36.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     jsonschema: "npm:^1.4.1"
@@ -8970,7 +9054,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   languageName: unknown
   linkType: soft
@@ -9013,6 +9097,7 @@ __metadata:
     "@metamask/superstruct": "npm:^3.4.1"
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bignumber.js: "npm:^9.1.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -9024,7 +9109,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -9045,6 +9130,7 @@ __metadata:
     "@metamask/snaps-sdk": "npm:^11.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     lodash-es: "npm:^4.17.21"
@@ -9053,7 +9139,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -9186,6 +9272,7 @@ __metadata:
     "@metamask/profile-sync-controller": "npm:^29.0.0"
     "@metamask/superstruct": "npm:^3.4.1"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -9193,7 +9280,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -9204,6 +9291,7 @@ __metadata:
     "@metamask/auto-changelog": "npm:^6.1.0"
     "@metamask/local-node-utils": "npm:^1.0.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -9211,7 +9299,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   bin:
     solana-test-validator-up: ./dist/bin/solana-test-validator-up.js
   languageName: unknown
@@ -9230,6 +9318,7 @@ __metadata:
   dependencies:
     "@metamask/auto-changelog": "npm:^6.1.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -9237,7 +9326,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -9249,6 +9338,7 @@ __metadata:
     "@metamask/messenger": "npm:^2.0.0"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -9256,7 +9346,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -9276,6 +9366,7 @@ __metadata:
     "@metamask/utils": "npm:^11.11.0"
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bignumber.js: "npm:^9.1.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
@@ -9284,7 +9375,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -9353,6 +9444,7 @@ __metadata:
     "@types/bn.js": "npm:^5.1.5"
     "@types/jest": "npm:^30.0.0"
     "@types/node": "npm:^22.13.14"
+    "@typescript/native": "npm:typescript@^7.0.2"
     async-mutex: "npm:^0.5.0"
     bignumber.js: "npm:^9.1.2"
     bn.js: "npm:^5.2.1"
@@ -9370,7 +9462,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   peerDependencies:
     "@babel/runtime": ^7.0.0
@@ -9401,6 +9493,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bignumber.js: "npm:^9.1.2"
     bn.js: "npm:^5.2.1"
     deepmerge: "npm:^4.2.2"
@@ -9412,7 +9505,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -9436,6 +9529,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     bn.js: "npm:^5.2.1"
     deepmerge: "npm:^4.2.2"
     immer: "npm:^9.0.6"
@@ -9446,7 +9540,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
     uuid: "npm:^8.3.2"
   peerDependencies:
     "@metamask/eth-block-tracker": ">=9"
@@ -9511,6 +9605,7 @@ __metadata:
     "@oclif/core": "npm:^4.10.5"
     "@types/better-sqlite3": "npm:^7.6.13"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     better-sqlite3: "npm:^12.9.0"
     deepmerge: "npm:^4.2.2"
     immer: "npm:^9.0.6"
@@ -9520,7 +9615,7 @@ __metadata:
     rimraf: "npm:^5.0.5"
     ts-jest: "npm:^29.4.11"
     tsx: "npm:^4.20.5"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   bin:
     mm: ./bin/run.mjs
   languageName: unknown
@@ -9546,6 +9641,7 @@ __metadata:
     "@tanstack/query-core": "npm:^5.62.16"
     "@types/jest": "npm:^30.0.0"
     "@types/react": "npm:^19.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     nock: "npm:^13.3.1"
@@ -9556,7 +9652,7 @@ __metadata:
     rimraf: "npm:^5.0.5"
     ts-jest: "npm:^29.4.11"
     tsx: "npm:^4.20.5"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -9588,6 +9684,7 @@ __metadata:
     "@metamask/transaction-controller": "npm:^69.6.1"
     "@metamask/utils": "npm:^11.11.0"
     "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
     deepmerge: "npm:^4.2.2"
     jest: "npm:^30.4.2"
     rimraf: "npm:^5.0.5"
@@ -9595,7 +9692,7 @@ __metadata:
     tsx: "npm:^4.20.5"
     typedoc: "npm:^0.25.13"
     typedoc-plugin-missing-exports: "npm:^2.0.0"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 
@@ -12534,6 +12631,227 @@ __metadata:
     "@typescript-eslint/types": "npm:8.54.0"
     eslint-visitor-keys: "npm:^4.2.1"
   checksum: 10/cca5380ee30250302ee1459e5a0a38de8c16213026dbbff3d167fa7d71d012f31d60ac4483ad45ebd13f2ac963d1ca52dd5f22759a68d4ee57626e421769187a
+  languageName: node
+  linkType: hard
+
+"@typescript/native@npm:typescript@^7.0.2":
+  version: 7.0.2
+  resolution: "typescript@npm:7.0.2"
+  dependencies:
+    "@typescript/typescript-aix-ppc64": "npm:7.0.2"
+    "@typescript/typescript-darwin-arm64": "npm:7.0.2"
+    "@typescript/typescript-darwin-x64": "npm:7.0.2"
+    "@typescript/typescript-freebsd-arm64": "npm:7.0.2"
+    "@typescript/typescript-freebsd-x64": "npm:7.0.2"
+    "@typescript/typescript-linux-arm": "npm:7.0.2"
+    "@typescript/typescript-linux-arm64": "npm:7.0.2"
+    "@typescript/typescript-linux-loong64": "npm:7.0.2"
+    "@typescript/typescript-linux-mips64el": "npm:7.0.2"
+    "@typescript/typescript-linux-ppc64": "npm:7.0.2"
+    "@typescript/typescript-linux-riscv64": "npm:7.0.2"
+    "@typescript/typescript-linux-s390x": "npm:7.0.2"
+    "@typescript/typescript-linux-x64": "npm:7.0.2"
+    "@typescript/typescript-netbsd-arm64": "npm:7.0.2"
+    "@typescript/typescript-netbsd-x64": "npm:7.0.2"
+    "@typescript/typescript-openbsd-arm64": "npm:7.0.2"
+    "@typescript/typescript-openbsd-x64": "npm:7.0.2"
+    "@typescript/typescript-sunos-x64": "npm:7.0.2"
+    "@typescript/typescript-win32-arm64": "npm:7.0.2"
+    "@typescript/typescript-win32-x64": "npm:7.0.2"
+  dependenciesMeta:
+    "@typescript/typescript-aix-ppc64":
+      optional: true
+    "@typescript/typescript-darwin-arm64":
+      optional: true
+    "@typescript/typescript-darwin-x64":
+      optional: true
+    "@typescript/typescript-freebsd-arm64":
+      optional: true
+    "@typescript/typescript-freebsd-x64":
+      optional: true
+    "@typescript/typescript-linux-arm":
+      optional: true
+    "@typescript/typescript-linux-arm64":
+      optional: true
+    "@typescript/typescript-linux-loong64":
+      optional: true
+    "@typescript/typescript-linux-mips64el":
+      optional: true
+    "@typescript/typescript-linux-ppc64":
+      optional: true
+    "@typescript/typescript-linux-riscv64":
+      optional: true
+    "@typescript/typescript-linux-s390x":
+      optional: true
+    "@typescript/typescript-linux-x64":
+      optional: true
+    "@typescript/typescript-netbsd-arm64":
+      optional: true
+    "@typescript/typescript-netbsd-x64":
+      optional: true
+    "@typescript/typescript-openbsd-arm64":
+      optional: true
+    "@typescript/typescript-openbsd-x64":
+      optional: true
+    "@typescript/typescript-sunos-x64":
+      optional: true
+    "@typescript/typescript-win32-arm64":
+      optional: true
+    "@typescript/typescript-win32-x64":
+      optional: true
+  bin:
+    tsc: bin/tsc
+  checksum: 10/b0179005349b43dc1febb35c4e79162cdf89b84eae60f6deac142429109041e07582e69a6aacf5a897e085869686d4512ea444a10acf5b5aa2b60910f82a19ca
+  languageName: node
+  linkType: hard
+
+"@typescript/old@npm:typescript@^6":
+  version: 6.0.3
+  resolution: "typescript@npm:6.0.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10/0ef2357a4cffd916b52b683a021cdab0f81eea4e9aa35f2d254581c9a5106da02224e3392e1b0ed42b7a48f80c966e5f52b8e1a27941fa0523c1705a9c2e0330
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-aix-ppc64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-aix-ppc64@npm:7.0.2"
+  conditions: os=aix & cpu=ppc64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-darwin-arm64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-darwin-arm64@npm:7.0.2"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-darwin-x64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-darwin-x64@npm:7.0.2"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-freebsd-arm64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-freebsd-arm64@npm:7.0.2"
+  conditions: os=freebsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-freebsd-x64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-freebsd-x64@npm:7.0.2"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-linux-arm64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-linux-arm64@npm:7.0.2"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-linux-arm@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-linux-arm@npm:7.0.2"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-linux-loong64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-linux-loong64@npm:7.0.2"
+  conditions: os=linux & cpu=loong64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-linux-mips64el@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-linux-mips64el@npm:7.0.2"
+  conditions: os=linux & cpu=mips64el
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-linux-ppc64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-linux-ppc64@npm:7.0.2"
+  conditions: os=linux & cpu=ppc64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-linux-riscv64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-linux-riscv64@npm:7.0.2"
+  conditions: os=linux & cpu=riscv64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-linux-s390x@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-linux-s390x@npm:7.0.2"
+  conditions: os=linux & cpu=s390x
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-linux-x64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-linux-x64@npm:7.0.2"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-netbsd-arm64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-netbsd-arm64@npm:7.0.2"
+  conditions: os=netbsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-netbsd-x64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-netbsd-x64@npm:7.0.2"
+  conditions: os=netbsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-openbsd-arm64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-openbsd-arm64@npm:7.0.2"
+  conditions: os=openbsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-openbsd-x64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-openbsd-x64@npm:7.0.2"
+  conditions: os=openbsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-sunos-x64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-sunos-x64@npm:7.0.2"
+  conditions: os=sunos & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-win32-arm64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-win32-arm64@npm:7.0.2"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@typescript/typescript-win32-x64@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@typescript/typescript-win32-x64@npm:7.0.2"
+  conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
@@ -25223,20 +25541,20 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=9bd1a5"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10/f345cd37f56a2c0275e3fe062517c650bb673815d885e7507566df589375d165bbbf4bdb6aa95600a9bc55f4744b81f452b5a63f95b9f10a72787dba3c90890a
+  checksum: 10/b14c82cbce48701a1e963c60f196b91a289186e8b596334e09c881df8069cefcfb0ac9ce85ea768742b361a58005494bf2428a95dc5056d2ba441aa993731b1f
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@npm%3A^1.22.11#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#optional!builtin<compat/resolve>":
   version: 1.22.12
-  resolution: "resolve@patch:resolve@npm%3A1.22.12#optional!builtin<compat/resolve>::version=1.22.12&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.12#optional!builtin<compat/resolve>::version=1.22.12&hash=9bd1a5"
   dependencies:
     es-errors: "npm:^1.3.0"
     is-core-module: "npm:^2.16.1"
@@ -25244,7 +25562,7 @@ __metadata:
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10/f80ad2c2b6820331cbe079198a184ffce322cfeca140065118066276bc08b03d5fa2c1ce652aeb584ec74050d1f656f46f034cc0dd9300452c5ab7866907f8c0
+  checksum: 10/7c0ee8a1bd6126d7adde06b8cbba7578f6b791560200cd235b696106b9803038fcf680f0273b350a4e9476de1a5194a9a77827cb08e10d80bea38f4d63b1d254
   languageName: node
   linkType: hard
 
@@ -27108,23 +27426,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~5.3.3":
-  version: 5.3.3
-  resolution: "typescript@npm:5.3.3"
+"typescript@npm:@typescript/typescript6@^6.0.2":
+  version: 6.0.2
+  resolution: "@typescript/typescript6@npm:6.0.2"
+  dependencies:
+    "@typescript/old": "npm:typescript@^6"
   bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10/6e4e6a14a50c222b3d14d4ea2f729e79f972fa536ac1522b91202a9a65af3605c2928c4a790a4a50aa13694d461c479ba92cedaeb1e7b190aadaa4e4b96b8e18
+    tsc6: bin/tsc6
+  checksum: 10/e214aa9b2783ac924498ebbb42a4419e1d8681acc10d26daa145e938d6da0ecde46ad36690fc4e9083a4b47cf73cdc83f2c2054f32e07f10920768956c2b00a1
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A~5.3.3#optional!builtin<compat/typescript>":
-  version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
+"typescript@patch:typescript@npm%3A@typescript/typescript6@^6.0.2#optional!builtin<compat/typescript>":
+  version: 6.0.2
+  resolution: "typescript@patch:@typescript/typescript6@npm%3A6.0.2#optional!builtin<compat/typescript>::version=6.0.2&hash=5786d5"
+  dependencies:
+    "@typescript/old": "npm:typescript@^6"
   bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10/c93786fcc9a70718ba1e3819bab56064ead5817004d1b8186f8ca66165f3a2d0100fee91fa64c840dcd45f994ca5d615d8e1f566d39a7470fc1e014dbb4cf15d
+    tsc6: bin/tsc6
+  checksum: 10/b190ec6b713b0fa95c059ff8019b740c17591ea83a3b60e6fe592d51d56d73c360b86abce48f616d25c39697cc5f4bb9efe8e2a231096f493758457cb175e11c
   languageName: node
   linkType: hard
 
