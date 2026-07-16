@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **BREAKING:** Bump minimum Node.js version to 22 ([#9168](https://github.com/MetaMask/core/pull/9168))
 - Bump `@metamask/transaction-controller` from `^69.6.0` to `^69.6.1` ([#9969](https://github.com/MetaMask/core/pull/9969))
 
 ## [2.1.1]
