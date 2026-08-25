@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Optional `failure_phase` and `error_code` on Quotes Error and Failed event context types
   - Optional `source_hash_present` and `destination_hash_present` on Failed, Submitted, and Completed event context types
   - Submit and status classifiers live in `@metamask/bridge-status-controller`
+- Emit `failure_phase`, `error_code`, `source_hash_present`, and `destination_hash_present` on Quotes Error and Failed events
 
 ## [80.1.0]
 
