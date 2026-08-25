@@ -31,7 +31,7 @@ import type { Messenger } from '@metamask/messenger';
 import type { AuthenticationController } from '@metamask/profile-sync-controller';
 import type { Hex } from '@metamask/utils';
 import { assert } from '@metamask/utils';
-import { debounce } from 'lodash';
+import { debounce } from 'lodash-es';
 import log from 'loglevel';
 
 import type {

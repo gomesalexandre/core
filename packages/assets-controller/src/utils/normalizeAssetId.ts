@@ -1,7 +1,9 @@
 import { toChecksumAddress } from '@ethereumjs/util';
 import { parseCaipAssetType, parseCaipChainId } from '@metamask/utils';
+// `@types/lodash-es` only re-exports the functions, so the helper type
+// comes from `@types/lodash`. This is erased at compile time.
 import type { MemoizedFunction } from 'lodash';
-import { memoize } from 'lodash';
+import { memoize } from 'lodash-es';
 
 import type { Caip19AssetId } from '../types.js';
 
