@@ -2083,7 +2083,7 @@ describe('Bridge Selectors', () => {
 
       expect(totalReceived).toMatchInlineSnapshot(`
         {
-          "amount": "38240503",
+          "amount": "38423182",
           "asset": {
             "assetId": "eip155:137/erc20:0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
             "decimals": 6,
@@ -2091,18 +2091,18 @@ describe('Bridge Selectors', () => {
             "name": "Native USD Coin (POS)",
             "symbol": "USDC",
           },
-          "minAmount": "37460000",
-          "minAmountNormalized": "37.46",
-          "minAmountUsd": "37.46",
-          "minAmountValueInCurrency": "7492",
-          "normalizedAmount": "38.240503",
-          "usd": "38.240503",
-          "valueInCurrency": "7648.1006",
+          "minAmount": "37600000",
+          "minAmountNormalized": "37.6",
+          "minAmountUsd": "37.6",
+          "minAmountValueInCurrency": "7520",
+          "normalizedAmount": "38.423182",
+          "usd": "38.423182",
+          "valueInCurrency": "7684.6364",
         }
       `);
       expect(minimumReceived).toMatchInlineSnapshot(`
         {
-          "amount": "37460000",
+          "amount": "37600000",
           "asset": {
             "assetId": "eip155:137/erc20:0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
             "decimals": 6,
@@ -2110,9 +2110,9 @@ describe('Bridge Selectors', () => {
             "name": "Native USD Coin (POS)",
             "symbol": "USDC",
           },
-          "normalizedAmount": "37.46",
-          "usd": "37.46",
-          "valueInCurrency": "7492",
+          "normalizedAmount": "37.6",
+          "usd": "37.6",
+          "valueInCurrency": "7520",
         }
       `);
       expect(rest).toMatchInlineSnapshot(`
@@ -2123,10 +2123,18 @@ describe('Bridge Selectors', () => {
           "quotesRefreshCount": 0,
         }
       `);
+      expect(recommendedQuotes.map((quote) => quote?.cost?.valueInCurrency))
+        .toMatchInlineSnapshot(`
+        [
+          "-4867.87052548",
+          "24925.00683656",
+        ]
+      `);
+
       expect(recommendedQuotes.map((quote) => quote?.quote.requestId))
         .toMatchInlineSnapshot(`
         [
-          "4277a368-40d7-4e82-aa67-74f29dc5f98a",
+          "381c23bc-e3e4-48fe-bc53-257471e388ad",
           "90ae8e69-f03a-4cf6-bab7-ed4e3431eb37",
         ]
       `);
