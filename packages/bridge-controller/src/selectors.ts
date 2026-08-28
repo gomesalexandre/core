@@ -458,10 +458,23 @@ const selectSortedBridgeQuotes = createBridgeSelector(
           'asc',
         );
       default:
+        if (
+          quotesWithMetadata.every(
+            (quote) => quote.quote.priceData?.cost?.valueInCurrency,
+          )
+        ) {
+          return orderBy(
+            quotesWithMetadata,
+            ({ quote: { priceData } }) =>
+              Number(priceData?.cost?.valueInCurrency),
+            'asc',
+          );
+        }
         if (quotesWithMetadata.every((quote) => quote.cost?.valueInCurrency)) {
           return orderBy(
             quotesWithMetadata,
-            ({ cost }) => Number(cost?.valueInCurrency),
+            ({ quote: { priceData } }) =>
+              Number(priceData?.cost?.valueInCurrency),
             'asc',
           );
         }
